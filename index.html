@@ -1,4 +1,21 @@
-<?php
+
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>QuickSlots</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="stylesheet" type="text/css" href="css/dashboard.css">
+  <link rel="stylesheet" type="text/css" href="css/chosen.css">
+  <link rel="stylesheet" type="text/css" href="css/table.css">
+  <script type="text/javascript" src="js/jquery.min.js" ></script>
+  <script type="text/javascript" src="js/form.js"></script>
+  <script type="text/javascript" src="js/chosen.js"></script>
+  <script type="text/javascript" src="js/grid.js"></script>
+  <script type="text/javascript">
+    
+    <?php
 
 /**
  * Provides interface to display the timetable
@@ -17,21 +34,6 @@ if(!empty($_GET['faculty']))
 if(!empty($_GET['batch']))
   $batchStr = $_GET['batch'];
 ?>
-<!DOCTYPE HTML>
-<html>
-<head>
-  <title>QuickSlots</title>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
-  <link rel="stylesheet" type="text/css" href="css/styles.css">
-  <link rel="stylesheet" type="text/css" href="css/dashboard.css">
-  <link rel="stylesheet" type="text/css" href="css/chosen.css">
-  <link rel="stylesheet" type="text/css" href="css/table.css">
-  <script type="text/javascript" src="js/jquery.min.js" ></script>
-  <script type="text/javascript" src="js/form.js"></script>
-  <script type="text/javascript" src="js/chosen.js"></script>
-  <script type="text/javascript" src="js/grid.js"></script>
-  <script type="text/javascript">
   $(function()
   {
       $("#main_menu a").each(function() {
